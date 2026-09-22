@@ -324,12 +324,10 @@ Quina de les dues estratègies consideres més adequada?
 
 ☐ Assignar permisos individualment a cada usuari.
 
-☐ Organitzar els usuaris segons les seves necessitats i assignar permisos a aquests conjunts.
+X Organitzar els usuaris segons les seves necessitats i assignar permisos a aquests conjunts.
 
 Justifica la resposta.
 
----
+--- Organitzar els usuaris en grups és més eficient perquè permet gestionar els permisos de manera centralitzada. Si MusicCloud passés de 14 a 500 treballadors, assignar els permisos individualment seria molt més lent i difícil de mantenir.
 
----
-
----
+En canvi, si els usuaris s'organitzen segons el departament, la responsabilitat o els projectes, només caldria afegir o eliminar els usuaris dels grups corresponents. Això facilita l'administració, redueix errors i permet que el sistema sigui més fàcil d'ampliar.
