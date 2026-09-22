@@ -66,7 +66,6 @@ Posa'n algun exemple:
 # 2. Recursos de l'empresa
 
 Analitza l'estructura d'informació de MusicCloud.
-
 Classifica alguns dels recursos següents segons la seva finalitat.
 
 | Recurs                                                   | Qui creus que l'hauria d'utilitzar?                | Per a què?                                                                           |
@@ -76,7 +75,7 @@ Classifica alguns dels recursos següents segons la seva finalitat.
 | `/empresa/departaments/administracio/compartida`         | Treballadors d'Administració                       | Per compartir i gestionar documents relacionats amb les tasques del departament.     |
 | `/empresa/departaments/administracio/gestio_departament` | Laia Macias, cap d'Administració                   | Per gestionar informació i documents relacionats amb la coordinació del departament. |
 | `/empresa/projectes/campanya_estiu`                      | Treballadors assignats al projecte                 | Per compartir i modificar els fitxers necessaris per desenvolupar el projecte.       |
-| `/empresa/administracio_sistema/backups`                 | Personal d'Informàtica autoritzat                  | Per gestionar i mantenir les còpies de seguretat dels sistemes de l'empresa.         |
+| `/empresa/administracio_sistema/backups`                 | Personal d'informàtica autoritzat                  | Per gestionar i mantenir les còpies de seguretat dels sistemes de l'empresa.         |
 
 ---
 
