@@ -179,11 +179,7 @@ Pere Espinalt deixa de col·laborar amb MusicCloud.
 
 Què hauríem de fer amb els seus accessos?
 
----
-
----
-
----
+--- Caldria retirar els seus accessos als recursos de l'empresa i desactivar el seu compte. D'aquesta manera, s'evitaria que pogués continuar accedint a informació de MusicCloud.
 
 # 6. Busquem una solució millor
 
