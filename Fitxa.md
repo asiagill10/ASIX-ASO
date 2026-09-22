@@ -212,17 +212,13 @@ Això facilita l'administració, redueix possibles errors i permet gestionar un 
 
 Si Dídac passa d'Administració a Producció musical, què caldria modificar?
 
----
-
----
+--- Caldria treure Dídac del conjunt d'Administració i afegir-lo al conjunt de Producció musical. Així, els seus permisos s'adaptarien a les seves noves funcions.
 
 ### 6.3.
 
 Com anomenaries aquests conjunts de persones?
 
----
-
----
+--- Els anomenaria grups, ja que agrupen usuaris que comparteixen unes mateixes necessitats d'accés.
 
 # 7. Primera proposta per a MusicCloud
 
