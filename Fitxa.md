@@ -52,16 +52,14 @@ Quines diferències observes entre un **treballador**, un **departament** i una 
 
 Hi ha persones que, pel seu càrrec o funció, necessiten accessos diferents dels altres membres del seu departament?
 
-☐ Sí  
+X Sí  
 ☐ No
 
 Posa'n algun exemple:
 
----
+--- Laia Macias pertany al departament d'Administració, però és la cap del departament. Per tant, a més dels permisos habituals d'Administració, necessita accedir a la carpeta `gestio_departament`.
 
----
-
----
+--- Un altre exemple és Talia Costas, que és la cap d'Informàtica i necessita privilegis especials per administrar els sistemes informàtics.
 
 # 2. Recursos de l'empresa
 
