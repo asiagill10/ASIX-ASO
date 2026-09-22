@@ -22,23 +22,25 @@ Consulta la informació disponible sobre els departaments, treballadors i perfil
 
 Completa la taula següent.
 
-| Persona          | Departament       | Funció / responsabilitat                                              | Necessita privilegis especials? Per què?                                                                                  |
-| ---------------- | ----------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| Aina Ciurans     | Direcció          | Direcció i gestió general de l'empresa                                | Sí. Necessita accedir a informació general i a determinats recursos confidencials de l'empresa.                           |
-| Rut Tornils      | Direcció          | Direcció i gestió general de l'empresa                                | Sí. Necessita accedir a informació general i a determinats recursos confidencials de l'empresa.                           |
-| Dídac Gassó      | Administració     | Administració i gestió de factures, contractes i documentació interna | No. Necessita els permisos propis del departament d'Administració.                                                        |
-| Laia Macias      | Administració     | Cap d'Administració                                                   | Sí. Necessita els permisos del departament i permisos addicionals per gestionar els recursos propis del departament.      |
-| Estel Birosta    | Suport tècnic     | Manteniment de sistemes i gestió d'incidències                        | No. Necessita els permisos habituals del departament de Suport tècnic.                                                    |
-| Aina Zuriguel    | Suport tècnic     | Manteniment de sistemes i gestió d'incidències                        | No. Necessita els permisos habituals del departament de Suport tècnic.                                                    |
-| Lluïsa Richart   | Suport tècnic     | Cap de Suport tècnic                                                  | Sí. Necessita els permisos del departament i permisos addicionals per gestionar els recursos del seu departament.         |
-| Roser Alberch    | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                |
-| Guillem Adella   | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                |
-| Meritxell Reglat | Producció musical | Cap de Producció musical                                              | Sí. Necessita els permisos del departament i permisos addicionals per gestionar els seus recursos.                        |
-| Alícia Monclús   | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                |
-| Carles Molins    | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                |
-| Eulàlia Galcera  | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                |
-| Talia Costas     | Informàtica       | Cap d'Informàtica                                                     | Sí. Necessita privilegis d'administració per gestionar els sistemes informàtics, els usuaris, els permisos i els serveis. |
-| Alex Soriano     | Informàtica       | Suport i administració del sistema informàtic                         | Sí. Necessita privilegis tècnics per realitzar tasques d'administració dels sistemes.                                     |
+| Persona          | Departament       | Funció / responsabilitat                                              | Necessita privilegis especials? Per què?                                                                                            |
+| ---------------- | ----------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Aina Ciurans     | Direcció          | Direcció i gestió general de l'empresa                                | Sí. Necessita accedir a informació general i a determinats recursos confidencials de l'empresa.                                     |
+| Rut Tornils      | Direcció          | Direcció i gestió general de l'empresa                                | Sí. Necessita accedir a informació general i a determinats recursos confidencials de l'empresa.                                     |
+| Dídac Gassó      | Administració     | Administració i gestió de factures, contractes i documentació interna | No. Necessita els permisos propis del departament d'Administració.                                                                  |
+| Laia Macias      | Administració     | Cap d'Administració                                                   | Sí. Necessita els permisos del departament i permisos addicionals per gestionar els recursos propis del departament.                |
+| Estel Birosta    | Suport tècnic     | Manteniment de sistemes i gestió d'incidències                        | No. Necessita els permisos habituals del departament de Suport tècnic.                                                              |
+| Aina Zuriguel    | Suport tècnic     | Manteniment de sistemes i gestió d'incidències                        | No. Necessita els permisos habituals del departament de Suport tècnic.                                                              |
+| Lluïsa Richart   | Suport tècnic     | Cap de Suport tècnic                                                  | Sí. Necessita els permisos del departament i permisos addicionals per gestionar els recursos del seu departament.                   |
+| Roser Alberch    | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                          |
+| Guillem Adella   | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                          |
+| Meritxell Reglat | Producció musical | Cap de Producció musical                                              | Sí. Necessita els permisos del departament i permisos addicionals per gestionar els seus recursos.                                  |
+| Alícia Monclús   | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                          |
+| Carles Molins    | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                          |
+| Eulàlia Galcera  | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                          |
+| Talia Costas     | Informàtica       | Cap d'Informàtica                                                     | Sí. Necessita privilegis d'administració per gestionar els sistemes informàtics, els usuaris, els permisos i els serveis.           |
+| Alex Soriano     | Informàtica       | Suport i administració del sistema informàtic                         | Sí. Necessita privilegis tècnics per realitzar tasques d'administració dels sistemes.                                               |
+| Pere Espinalt    | Extern            | Col·laborador extern                                                  | No. Només necessita accés als recursos específics que se li autoritzin i no ha de tenir accés a la informació interna de l'empresa. |
+| Neus Bages       | Extern            | Col·laboradora externa                                                | No. Només necessita accés als recursos específics que se li autoritzin i no ha de tenir accés a la informació interna de l'empresa. |
 
 ### 1.1. Reflexió
 
@@ -67,14 +69,14 @@ Analitza l'estructura d'informació de MusicCloud.
 
 Classifica alguns dels recursos següents segons la seva finalitat.
 
-| Recurs                                                   | Qui creus que l'hauria d'utilitzar? | Per a què? |
-| -------------------------------------------------------- | ----------------------------------- | ---------- |
-| `/empresa/comu/intercanvi`                               |                                     |            |
-| `/empresa/comu/comunicats`                               |                                     |            |
-| `/empresa/departaments/administracio/compartida`         |                                     |            |
-| `/empresa/departaments/administracio/gestio_departament` |                                     |            |
-| `/empresa/projectes/campanya_estiu`                      |                                     |            |
-| `/empresa/administracio_sistema/backups`                 |                                     |            |
+| Recurs                                                   | Qui creus que l'hauria d'utilitzar?                | Per a què?                                                                           |
+| -------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| `/empresa/comu/intercanvi`                               | Treballadors interns i usuaris externs autoritzats | Per intercanviar temporalment documents entre MusicCloud i persones externes.        |
+| `/empresa/comu/comunicats`                               | Treballadors de MusicCloud                         | Per consultar comunicacions i informació general de l'empresa.                       |
+| `/empresa/departaments/administracio/compartida`         | Treballadors d'Administració                       | Per compartir i gestionar documents relacionats amb les tasques del departament.     |
+| `/empresa/departaments/administracio/gestio_departament` | Laia Macias, cap d'Administració                   | Per gestionar informació i documents relacionats amb la coordinació del departament. |
+| `/empresa/projectes/campanya_estiu`                      | Treballadors assignats al projecte                 | Per compartir i modificar els fitxers necessaris per desenvolupar el projecte.       |
+| `/empresa/administracio_sistema/backups`                 | Personal d'Informàtica autoritzat                  | Per gestionar i mantenir les còpies de seguretat dels sistemes de l'empresa.         |
 
 ---
 
