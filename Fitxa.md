@@ -204,9 +204,9 @@ Administració → carpeta_administracio → L/E
 
 Quin avantatge té aquesta solució respecte a donar permisos persona per persona?
 
----
+--- Permet gestionar els permisos de manera centralitzada. En lloc d'assignar els permisos a cada persona individualment, s'assignen al conjunt de persones que tenen les mateixes necessitats.
 
----
+Això facilita l'administració, redueix possibles errors i permet gestionar un nombre més gran de treballadors de manera eficient
 
 ### 6.2.
 
