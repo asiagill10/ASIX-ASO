@@ -226,13 +226,13 @@ A partir de l'organització de l'empresa, proposa els primers conjunts de person
 
 **No cal trobar encara la solució definitiva.**
 
-| Nom proposat | Qui hi pertanyeria? | Per què existeix aquest conjunt? |
-| ------------ | ------------------- | -------------------------------- |
-|              |                     |                                  |
-|              |                     |                                  |
-|              |                     |                                  |
-|              |                     |                                  |
-|              |                     |                                  |
+| Nom proposat       | Qui hi pertanyeria?                                                                              | Per què existeix aquest conjunt?                                              |
+| ------------------ | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
+| `Administracio`    | Dídac Gassó i Laia Macias                                                                        | Per gestionar els accessos als recursos del departament d'Administració.      |
+| `SuportTecnic`     | Estel Birosta, Aina Zuriguel i Lluïsa Richart                                                    | Per gestionar els accessos als recursos del departament de Suport tècnic.     |
+| `ProduccioMusical` | Roser Alberch, Guillem Adella, Meritxell Reglat, Alícia Monclús, Carles Molins i Eulàlia Galcera | Per gestionar els accessos als recursos del departament de Producció musical. |
+| `Informatica`      | Talia Costas i Alex Soriano                                                                      | Per gestionar els accessos als recursos del departament d'Informàtica.        |
+| `Externs`          | Pere Espinalt i Neus Bages                                                                       | Per gestionar els accessos limitats dels treballadors externs.                |
 
 ---
 
