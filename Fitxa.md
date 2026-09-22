@@ -159,13 +159,11 @@ Dídac deixa Administració i passa a Producció musical.
 
 Quins accessos hauria de perdre?
 
----
+--- Hauria de perdre els accessos associats al departament d'Administració, especialment els permisos sobre les carpetes compartides i la documentació interna d'aquest departament.
 
 Quins accessos hauria d'obtenir?
 
----
-
----
+--- Hauria d'obtenir els permisos corresponents al departament de Producció musical, incloent-hi l'accés als recursos compartits que necessita per desenvolupar les seves noves funcions.
 
 ### Cas B
 
