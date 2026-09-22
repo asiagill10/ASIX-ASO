@@ -171,11 +171,7 @@ S'incorpora una nova treballadora al departament d'Administració.
 
 Quins accessos caldria configurar?
 
----
-
----
-
----
+--- Caldria crear el seu usuari i assignar-la al conjunt corresponent d'Administració. Això li permetria obtenir els permisos necessaris per accedir als recursos compartits del departament.
 
 ### Cas C
 
