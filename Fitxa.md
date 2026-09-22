@@ -92,14 +92,14 @@ Utilitza:
 
 No busquis encara una solució tècnica. Pensa només en les necessitats de l'empresa.
 
-| Situació                                                             | Accés proposat | Justificació |
-| -------------------------------------------------------------------- | -------------- | ------------ |
-| Dídac accedeix a la carpeta compartida d'Administració               |                |              |
-| Laia accedeix a la gestió del departament d'Administració            |                |              |
-| Pere, treballador extern, accedeix als comunicats interns            |                |              |
-| Talia accedeix als backups del sistema                               |                |              |
-| Un membre de Producció musical accedeix a la carpeta d'Administració |                |              |
-| Un participant de `campanya_estiu` accedeix als fitxers del projecte |                |              |
+| Situació                                                             | Accés proposat | Justificació                                                                                               |
+| -------------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------------------------------------------- |
+| Dídac accedeix a la carpeta compartida d'Administració               | **L/E**        | Dídac forma part d'Administració i necessita consultar i modificar els documents del seu departament.      |
+| Laia accedeix a la gestió del departament d'Administració            | **L/E**        | Laia és la cap del departament i necessita gestionar els recursos propis del departament.                  |
+| Pere, treballador extern, accedeix als comunicats interns            | **NA**         | Els comunicats interns són informació destinada als treballadors de MusicCloud i Pere és un usuari extern. |
+| Talia accedeix als backups del sistema                               | **ADM**        | Talia és la cap d'Informàtica i necessita gestionar les còpies de seguretat i el seu manteniment.          |
+| Un membre de Producció musical accedeix a la carpeta d'Administració | **NA**         | No necessita accedir a aquesta informació per realitzar les seves funcions.                                |
+| Un participant de `campanya_estiu` accedeix als fitxers del projecte | **L/E**        | Els participants necessiten consultar i modificar els fitxers necessaris per desenvolupar el projecte.     |
 
 ---
 
