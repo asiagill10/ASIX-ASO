@@ -22,16 +22,23 @@ Consulta la informació disponible sobre els departaments, treballadors i perfil
 
 Completa la taula següent.
 
-| Persona | Departament | Funció / responsabilitat | Necessita privilegis especials? Per què? |
-| ------- | ----------- | ------------------------ | ---------------------------------------- |
-|         |             |                          |                                          |
-|         |             |                          |                                          |
-|         |             |                          |                                          |
-|         |             |                          |                                          |
-|         |             |                          |                                          |
-|         |             |                          |                                          |
-|         |             |                          |                                          |
-|         |             |                          |                                          |
+| Persona          | Departament       | Funció / responsabilitat                                              | Necessita privilegis especials? Per què?                                                                                  |
+| ---------------- | ----------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Aina Ciurans     | Direcció          | Direcció i gestió general de l'empresa                                | Sí. Necessita accedir a informació general i a determinats recursos confidencials de l'empresa.                           |
+| Rut Tornils      | Direcció          | Direcció i gestió general de l'empresa                                | Sí. Necessita accedir a informació general i a determinats recursos confidencials de l'empresa.                           |
+| Dídac Gassó      | Administració     | Administració i gestió de factures, contractes i documentació interna | No. Necessita els permisos propis del departament d'Administració.                                                        |
+| Laia Macias      | Administració     | Cap d'Administració                                                   | Sí. Necessita els permisos del departament i permisos addicionals per gestionar els recursos propis del departament.      |
+| Estel Birosta    | Suport tècnic     | Manteniment de sistemes i gestió d'incidències                        | No. Necessita els permisos habituals del departament de Suport tècnic.                                                    |
+| Aina Zuriguel    | Suport tècnic     | Manteniment de sistemes i gestió d'incidències                        | No. Necessita els permisos habituals del departament de Suport tècnic.                                                    |
+| Lluïsa Richart   | Suport tècnic     | Cap de Suport tècnic                                                  | Sí. Necessita els permisos del departament i permisos addicionals per gestionar els recursos del seu departament.         |
+| Roser Alberch    | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                |
+| Guillem Adella   | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                |
+| Meritxell Reglat | Producció musical | Cap de Producció musical                                              | Sí. Necessita els permisos del departament i permisos addicionals per gestionar els seus recursos.                        |
+| Alícia Monclús   | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                |
+| Carles Molins    | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                |
+| Eulàlia Galcera  | Producció musical | Gestió de continguts musicals                                         | No. Necessita els permisos habituals del departament de Producció musical.                                                |
+| Talia Costas     | Informàtica       | Cap d'Informàtica                                                     | Sí. Necessita privilegis d'administració per gestionar els sistemes informàtics, els usuaris, els permisos i els serveis. |
+| Alex Soriano     | Informàtica       | Suport i administració del sistema informàtic                         | Sí. Necessita privilegis tècnics per realitzar tasques d'administració dels sistemes.                                     |
 
 ### 1.1. Reflexió
 
@@ -367,13 +374,3 @@ Justifica la resposta.
 ---
 
 ---
-
-Jo **no faria obligatori que acabessin tota la fitxa abans d'explicar res**. La utilitzaria de manera sincronitzada amb la classe:
-
-**0–40 min:** apartats 1–3 → analitzen MusicCloud i els accessos.  
-**40–65 min:** apartats 4–5 → apareix el problema de gestionar permisos individualment.  
-**65–85 min:** explicació curta de **usuari, grup, recurs, permís i mínim privilegi**.  
-**85–110 min:** apartats 6–9 → apliquen immediatament el concepte de grup.  
-**110–120 min:** apartats 10–12 → revisió i tancament.
-
-Hi ha una decisió pedagògica important: a l'apartat 4 **no utilitzo la paraula “grup” fins que l'alumnat ha intentat resoldre el problema**. Això encaixa molt millor amb el cicle que vols seguir: primer tenen el problema, després apareix la necessitat i només aleshores introdueixes el concepte teòric.
