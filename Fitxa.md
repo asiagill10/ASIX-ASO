@@ -243,21 +243,15 @@ Laia treballa al departament d'Administració, però també és la responsable d
 És suficient que pertanyi només al conjunt `Administració`?
 
 ☐ Sí  
-☐ No
+X No
 
 Per què?
 
----
-
----
+--- No és suficient perquè Laia necessita els permisos normals del departament d'Administració i, a més, permisos addicionals com a responsable del departament.
 
 Quina possible solució proposes?
 
----
-
----
-
----
+--- Es pot mantenir Laia dins del grup `Administracio` i crear un altre grup específic per als responsables, per exemple `Responsables_Administracio`. Així, Laia tindria els permisos habituals del departament i els permisos addicionals corresponents a la seva responsabilitat.
 
 # 9. Un altre cas
 
