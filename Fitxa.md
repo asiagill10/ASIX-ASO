@@ -280,27 +280,25 @@ Completa les frases amb les teves paraules.
 
 Un usuari representa:
 
----
+--- Una persona que necessita accedir als recursos informàtics de l'empresa per poder realitzar les seves funcions.
 
 ### Recurs
 
 Un recurs és:
 
----
+--- Un element informàtic, com una carpeta, un fitxer o un servei, al qual els usuaris poden necessitar accedir.
 
 ### Permís
 
 Un permís determina:
 
----
+--- Quines accions pot realitzar un usuari sobre un recurs, com consultar, modificar o administrar la informació.
 
 ### Grup
 
 Un grup serveix per:
 
----
-
----
+--- Agrupar usuaris amb necessitats d'accés similars i facilitar la gestió dels permisos.
 
 # 11. Regla de mínim privilegi
 
