@@ -264,15 +264,13 @@ Campanya Estiu
 Creus que hauríem de canviar-les de departament?
 
 ☐ Sí  
-☐ No
+X No
 
 Si no, com podríem donar-los accés als recursos del projecte?
 
----
+--- Les persones haurien de continuar pertanyent al seu departament original, ja que participar en un projecte temporal no modifica la seva funció dins de l'empresa.
 
----
-
----
+Es podria crear un grup específic anomenat Projecte_Campanya_Estiu i afegir-hi les persones que participen en el projecte. Aquest grup tindria els permisos necessaris sobre els recursos de campanya_estiu.
 
 # 10. Conclusions
 
