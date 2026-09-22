@@ -308,17 +308,13 @@ Analitza aquesta afirmació:
 
 Explica amb les teves paraules què significa.
 
----
+--- Significa que cada usuari ha de tenir únicament els permisos necessaris per desenvolupar les seves funcions i no ha de tenir accés a recursos que no necessita.
 
----
+Aquesta regla permet protegir millor la informació de l'empresa i reduir el risc d'accessos no autoritzats o de modificacions accidentals
 
 Posa un exemple relacionat amb MusicCloud.
 
----
-
----
-
----
+--- Un treballador de Producció musical necessita accedir a les carpetes del seu departament, però no necessita accedir als backups del sistema ni a la documentació confidencial d'Administració. Per tant, no se li haurien de concedir aquests permisos.
 
 # 12. Pregunta final
 
