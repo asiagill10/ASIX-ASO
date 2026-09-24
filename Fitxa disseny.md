@@ -293,23 +293,19 @@ Respon breument.
 
 ### a) Per què no seria una bona idea guardar tots els usuaris, grups, equips i servidors al mateix nivell sense organitzar-los?
 
----
-
----
+- Perquè el directori seria més difícil de gestionar i mantenir. Separar els objectes en diferents OUs permet trobar-los més fàcilment, mantenir una estructura clara i aplicar configuracions de manera més controlada.
 
 ### b) Per què no hauríem d'utilitzar les OU per substituir els grups de permisos?
 
----
+- Perquè les OU i els grups tenen funcions diferents. Les OU serveixen principalment per organitzar els objectes del directori i aplicar-hi polítiques, mentre que els grups serveixen per agrupar usuaris segons les seves necessitats i assignar permisos.
 
----
+A més, un usuari només es troba en una ubicació dins de l'estructura d'OUs, però pot pertànyer a diversos grups al mateix temps.
 
 ### c) Si MusicCloud passa de 14 a 500 treballadors, quina característica del disseny que has fet avui facilitarà més l'administració?
 
----
+- La característica que més facilitarà l'administració serà l'ús de grups per gestionar els permisos. D'aquesta manera, els permisos es poden assignar als grups en lloc de configurar-los individualment per a cada treballador.
 
----
-
----
+Això permetrà gestionar un nombre molt més gran d'usuaris de manera centralitzada i escalable.
 
 # Documentació final del sistema
 
@@ -320,15 +316,47 @@ A partir de les decisions preses durant la sessió, deixa definida la proposta q
 ```text
 MusicCloud
 │
+├── Usuaris
+│   ├── Direccio
+│   ├── Administracio
+│   ├── Suport_Tecnic
+│   ├── Produccio_Musical
+│   ├── Informatica
+│   └── Externs
 │
+├── Grups
+│   ├── Departaments
+│   ├── Projectes
+│   └── Funcions
 │
+├── Equips
+│   ├── Sobretaula
+│   ├── Portatils
+│   ├── Servidors
+│   ├── Impressores
+│   └── Mobils
 │
+├── Xarxa
+│   ├── SAIS
+│   ├── NAS
+│   ├── Firewalls
+│   ├── Routers
+│   └── Switchs
+│
+├── Software
+│   └── Llicencies
+│
+└── Comptes_Servei
+    ├── Aplicacions
+    └── Copies_Seguretat
 ```
 
 ## Criteri utilitzat per organitzar els objectes
 
----
-
----
+- Els objectes s'organitzen principalment segons el seu tipus i funció dins de MusicCloud. Els usuaris s'agrupen segons el departament al qual pertanyen, mentre que els equips, elements de xarxa, recursos de software i comptes de servei es separen en diferents OUs per facilitar-ne la gestió.
 
 ## Criteri utilitzat per diferenciar OU i grups
+
+- Les OU s'utilitzen per organitzar els objectes dins del directori i facilitar-ne l'administració i l'aplicació de polítiques.
+
+- Els grups s'utilitzen per agrupar usuaris segons les seves necessitats de permisos, departament, projectes o funcions. D'aquesta manera, un mateix usuari pot estar ubicat en una única OU però pertànyer a diversos grups.
