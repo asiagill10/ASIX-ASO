@@ -145,17 +145,11 @@ Per tant, Dídac pot estar ubicat a l'OU **Administracio** i, al mateix temps, p
 
 Explica breument què entens per **servei de directori**.
 
----
-
----
+- Un servei de directori és un sistema que permet emmagatzemar i gestionar de manera centralitzada informació sobre els usuaris, grups, equips, servidors i altres objectes d'una organització.
 
 Quin problema resol a MusicCloud?
 
----
-
----
-
----
+- A MusicCloud permet centralitzar la gestió dels usuaris i dels recursos informàtics. D'aquesta manera, es poden administrar els comptes, grups i accessos des d'un mateix sistema, en lloc de gestionar-los individualment a cada equip.
 
 # 6. LDAP
 
