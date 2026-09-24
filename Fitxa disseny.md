@@ -30,13 +30,13 @@ Hi afegiries algun altre tipus d'objecte?
 
 Proposa les **unitats organitzatives (OU)** principals que utilitzaries a MusicCloud.
 
-| OU  | Què contindrà? | Per què la crees? |
-| --- | -------------- | ----------------- |
-|     |                |                   |
-|     |                |                   |
-|     |                |                   |
-|     |                |                   |
-|     |                |                   |
+| OU        | Què contindrà?                              | Per què la crees?                                                              |
+| --------- | ------------------------------------------- | ------------------------------------------------------------------------------ |
+| Usuaris   | Comptes dels treballadors i usuaris externs | Per organitzar els comptes dels usuaris de l'empresa.                          |
+| Grups     | Grups de seguretat i altres grups           | Per mantenir organitzats els grups utilitzats per gestionar els permisos.      |
+| Equips    | Ordinadors clients de MusicCloud            | Per gestionar i organitzar els equips de l'empresa.                            |
+| Servidors | Comptes dels servidors                      | Per separar els servidors dels equips clients i facilitar-ne l'administració.  |
+| Serveis   | Comptes d'aplicacions i serveis             | Per organitzar els comptes utilitzats pels serveis i aplicacions de l'empresa. |
 
 ## 2.1. Organització dels usuaris
 
@@ -45,7 +45,35 @@ Dibuixa l'estructura que utilitzaries per organitzar els usuaris de MusicCloud.
 ```text
 MusicCloud
 │
-└──
+└── Usuaris
+    ├── Direccio
+    │   ├── Aina Ciurans
+    │   └── Rut Tornils
+    │
+    ├── Administracio
+    │   ├── Dídac Gassó
+    │   └── Laia Macias
+    │
+    ├── SuportTecnic
+    │   ├── Estel Birosta
+    │   ├── Aina Zuriguel
+    │   └── Lluïsa Richart
+    │
+    ├── ProduccioMusical
+    │   ├── Roser Alberch
+    │   ├── Guillem Adella
+    │   ├── Meritxell Reglat
+    │   ├── Alícia Monclús
+    │   ├── Carles Molins
+    │   └── Eulàlia Galcera
+    │
+    ├── Informatica
+    │   ├── Talia Costas
+    │   └── Alex Soriano
+    │
+    └── Externs
+        ├── Pere Espinalt
+        └── Neus Bages
 ```
 
 ---
