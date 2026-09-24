@@ -190,13 +190,74 @@ Ha de mostrar, com a mínim:
 ```text
 MusicCloud
 │
+├── Usuaris
+│   ├── Direccio
+│   │   ├── Aina Ciurans
+│   │   └── Rut Tornils
+│   │
+│   ├── Administracio
+│   │   ├── Dídac Gassó
+│   │   └── Laia Macias
+│   │
+│   ├── Suport_Tecnic
+│   │   ├── Estel Birosta
+│   │   ├── Aina Zuriguel
+│   │   └── Lluïsa Richart
+│   │
+│   ├── Produccio_Musical
+│   │   ├── Roser Alberch
+│   │   ├── Guillem Adella
+│   │   ├── Meritxell Reglat
+│   │   ├── Alícia Monclús
+│   │   ├── Carles Molins
+│   │   └── Eulàlia Galcera
+│   │
+│   ├── Informatica
+│   │   ├── Talia Costas
+│   │   └── Alex Soriano
+│   │
+│   └── Externs
+│       ├── Pere Espinalt
+│       └── Neus Bages
 │
+├── Grups
+│   ├── Departaments
+│   │   ├── GG_Direccio
+│   │   ├── GG_Administracio
+│   │   ├── GG_Suport_Tecnic
+│   │   ├── GG_Produccio_Musical
+│   │   ├── GG_Informatica
+│   │   └── GG_Externs
+│   │
+│   ├── Projectes
+│   │   └── GG_Projecte_Campanya_Estiu
+│   │
+│   └── Funcions
+│       ├── GG_Caps_Departament
+│       ├── GG_Responsables_Administracio
+│       └── GG_Administradors_Sistema
 │
+├── Equips
+│   ├── Sobretaula
+│   ├── Portatils
+│   ├── Servidors
+│   ├── Impressores
+│   └── Mobils
 │
+├── Xarxa
+│   ├── SAIS
+│   ├── NAS
+│   ├── Firewalls
+│   ├── Routers
+│   └── Switchs
 │
+├── Software
+│   └── Llicencies
+│
+└── Comptes_Servei
+    ├── Aplicacions
+    └── Copies_Seguretat
 ```
-
----
 
 # 8. Justificació del disseny
 
