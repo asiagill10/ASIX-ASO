@@ -117,21 +117,29 @@ Indica:
 
 **En quina OU ubicaries el seu compte?**
 
----
+- Ubicaria el compte de Dídac a l'OU corresponent al seu departament:
+
+```text
+MusicCloud
+└── Usuaris
+    └── Administracio
+        └── Dídac Gassó
+```
 
 **A quins grups podria pertànyer?**
 
----
+Dídac podria pertànyer, com a mínim, als grups:
 
----
+- `Administracio`
+- `Projecte_Campanya_Estiu`
+
+Aquests grups li permetrien obtenir els permisos corresponents al seu departament i al projecte en què participa.
 
 ### Per què no és contradictori que estigui en una OU però pertanyi a diversos grups?
 
----
+- No és contradictori perquè l'**OU i els grups tenen funcions diferents**. L'OU indica com està organitzat el compte dins del directori, mentre que els grups permeten agrupar l'usuari segons les seves necessitats d'accés.
 
----
-
----
+Per tant, Dídac pot estar ubicat a l'OU **Administracio** i, al mateix temps, pertànyer a diversos grups.
 
 # 5. Servei de directori
 
