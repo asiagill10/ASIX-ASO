@@ -265,23 +265,25 @@ Escull **dues decisions** del teu DIT que consideris importants i justifica-les.
 
 ### Decisió 1
 
+- Separar els objectes del directori en diferents **Unitats Organitzatives (OU)** segons el seu tipus: usuaris, grups, equips, xarxa, software i comptes de servei.
+
 ---
 
 **Justificació:**
 
----
+- Aquesta organització permet mantenir el directori ordenat i fàcil d'administrar. Cada tipus d'objecte es troba en una ubicació diferenciada, cosa que facilita la seva gestió i permet aplicar configuracions o polítiques de manera més controlada.
 
 ---
 
 ### Decisió 2
 
+- Utilitzar **grups** per gestionar els permisos segons el departament, els projectes i les funcions dels treballadors.
+
 ---
 
 **Justificació:**
 
----
-
----
+- Els grups permeten assignar permisos a diversos usuaris alhora sense haver de configurar els permisos individualment. A més, són més flexibles i dinàmics, ja que un usuari pot pertànyer a diversos grups segons les seves funcions o necessitats d'accés.
 
 ---
 
