@@ -84,29 +84,25 @@ Indica quina opció utilitzaries principalment en cada cas.
 
 | Necessitat                                                | OU  | Grup |
 | --------------------------------------------------------- | :-: | :--: |
-| Organitzar els treballadors d'Administració               |  ☐  |  ☐   |
-| Donar accés a la carpeta d'Administració                  |  ☐  |  ☐   |
-| Organitzar els ordinadors clients                         |  ☐  |  ☐   |
-| Identificar les persones que participen en Campanya Estiu |  ☐  |  ☐   |
-| Organitzar els servidors                                  |  ☐  |  ☐   |
-| Donar privilegis als administradors del sistema           |  ☐  |  ☐   |
-| Organitzar els comptes utilitzats per aplicacions         |  ☐  |  ☐   |
+| Organitzar els treballadors d'Administració               |  X  |  ☐   |
+| Donar accés a la carpeta d'Administració                  |  ☐  |  X   |
+| Organitzar els ordinadors clients                         |  X  |  ☐   |
+| Identificar les persones que participen en Campanya Estiu |  ☐  |  X   |
+| Organitzar els servidors                                  |  X  |  ☐   |
+| Donar privilegis als administradors del sistema           |  ☐  |  X   |
+| Organitzar els comptes utilitzats per aplicacions         |  X  |  ☐   |
 
 ### Explica amb les teves paraules la diferència principal entre una OU i un grup.
 
 **OU:**
 
----
-
----
+- Una OU serveix principalment per organitzar objectes dins del directori, com usuaris, equips o servidors. També permet aplicar determinades configuracions i polítiques als objectes que conté. En general, la seva estructura és més estàtica, ja que s'utilitza per representar una organització estable, com els diferents departaments de l'empresa.
 
 **Grup:**
 
----
+- Un grup serveix principalment per agrupar usuaris o altres objectes que comparteixen unes mateixes necessitats, especialment per facilitar l'assignació de permisos i privilegis. La seva composició és més dinàmica, ja que els membres poden canviar segons les funcions, els projectes o els permisos que necessitin.
 
----
-
----
+Per exemple, un usuari pot estar situat a l'OU d'_Administració_ perquè pertany a aquest departament, però al mateix temps formar part dels grups _Administracio_, _Responsables_ o _Projecte_Campanya_Estiu_ segons les seves funcions i necessitats d'accés.
 
 # 4. Un mateix usuari: ubicació i pertinença
 
