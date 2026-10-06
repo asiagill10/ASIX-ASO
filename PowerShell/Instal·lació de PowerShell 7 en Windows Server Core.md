@@ -47,3 +47,25 @@ Aquesta carpeta s'utilitzarà per emmagatzemar els fitxers de PowerShell 7.
 ## ![CAPTURA 3: Creació de la carpeta d'instal·lació](./Imatges%20Powershell/PW_CrearCarpeta.png)
 
 ---
+
+## 4. Descàrrega de PowerShell 7
+
+Com que el servidor no disposa d'interfície gràfica, s'ha descarregat el paquet de PowerShell 7 directament des de PowerShell.
+
+S'ha descarregat la versió **7.6.6 x64** mitjançant:
+
+```powershell
+Invoke-WebRequest -Uri "https://github.com/PowerShell/PowerShell/releases/download/v7.6.6/PowerShell-7.6.6-win-x64.zip" -OutFile "C:\PowerShell-7.6.6-win-x64.zip"
+```
+
+El fitxer s'ha desat a:
+
+```text
+C:\PowerShell-7.6.6-win-x64.zip
+```
+
+### Captura
+
+> **[CAPTURA 4: Descàrrega del paquet de PowerShell 7]**
+
+---
