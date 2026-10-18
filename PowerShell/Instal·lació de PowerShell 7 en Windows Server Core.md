@@ -157,3 +157,27 @@ El resultat mostra la versió **7.6.6** i l'edició **Core**.
 ## ![CAPTURA 9: $PSVersionTable mostrant PowerShell 7.6.6](./Imatges%20Powershell/PW_Inicipw7.png)
 
 ---
+
+## 10. Comprovació de la coexistència amb PowerShell 5.1
+
+PowerShell 7 no substitueix PowerShell 5.1, sinó que les dues versions poden funcionar de manera independent.
+
+Per comprovar-ho, s'ha sortit temporalment de PowerShell 7 amb:
+
+```powershell
+exit
+```
+
+Posteriorment s'ha comprovat la versió de la sessió anterior:
+
+```powershell
+$PSVersionTable.PSVersion
+```
+
+El resultat mostra que PowerShell 5.1 continua disponible al servidor.
+
+### Captura
+
+## ![CAPTURA 10: PowerShell 5.1 després de sortir de PowerShell 7](./Imatges%20Powershell/PW_pw5.png)
+
+---
