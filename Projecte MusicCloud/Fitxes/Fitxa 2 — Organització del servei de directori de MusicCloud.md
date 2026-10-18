@@ -236,13 +236,13 @@ Escull **dues decisions** del teu DIT que consideris importants i justifica-les.
 
 ### Decisió 1
 
-- Separar els objectes del directori en diferents **Unitats Organitzatives (OU)** segons el seu tipus: usuaris, grups, equips, xarxa, software i comptes de servei.
+- Separar els objectes del directori en diferents **Unitats Organitzatives (OU)** segons les necessitats d'administració: usuaris, grups, equips clients, servidors i comptes de servei.
 
 ---
 
 **Justificació:**
 
-- Aquesta organització permet mantenir el directori ordenat i fàcil d'administrar. Cada tipus d'objecte es troba en una ubicació diferenciada, cosa que facilita la seva gestió i permet aplicar configuracions o polítiques de manera més controlada.
+- Aquesta organització facilita l'administració del directori i permet aplicar polítiques de seguretat diferents segons el tipus d'objecte. Les OU es creen quan hi ha una necessitat real d'administració o d'aplicació de polítiques.
 
 ---
 
@@ -254,7 +254,7 @@ Escull **dues decisions** del teu DIT que consideris importants i justifica-les.
 
 **Justificació:**
 
-- Els grups permeten assignar permisos a diversos usuaris alhora sense haver de configurar els permisos individualment. A més, són més flexibles i dinàmics, ja que un usuari pot pertànyer a diversos grups segons les seves funcions o necessitats d'accés.
+- Els grups permeten assignar permisos a diversos usuaris alhora. Això simplifica la gestió i facilita els canvis quan un treballador canvia de departament o participa en un projecte nou, sense haver de configurar els permisos individualment.
 
 ---
 
