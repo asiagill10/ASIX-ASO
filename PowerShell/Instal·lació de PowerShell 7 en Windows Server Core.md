@@ -66,6 +66,6 @@ C:\PowerShell-7.6.6-win-x64.zip
 
 ### Captura
 
-> **[CAPTURA 4: Descàrrega del paquet de PowerShell 7]**
+## ![CAPTURA 4: Descàrrega del paquet de PowerShell 7](./Imatges%20Powershell/PW_Descarrega.png)
 
 ---
