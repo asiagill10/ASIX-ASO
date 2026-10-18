@@ -181,3 +181,25 @@ El resultat mostra que PowerShell 5.1 continua disponible al servidor.
 ## ![CAPTURA 10: PowerShell 5.1 després de sortir de PowerShell 7](./Imatges%20Powershell/PW_pw5.png)
 
 ---
+
+## 11. Comprovació final
+
+Finalment, s'ha tornat a iniciar PowerShell 7:
+
+```powershell
+& "C:\Program Files\PowerShell\7\pwsh.exe"
+```
+
+I s'ha comprovat novament la versió:
+
+```powershell
+$PSVersionTable.PSVersion
+```
+
+El resultat confirma que PowerShell 7 està instal·lat i funcionant correctament.
+
+### Captura
+
+## ![CAPTURA 11: Comprovació final de PowerShell 7](./Imatges%20Powershell/PW_pw7comp.png)
+
+---
