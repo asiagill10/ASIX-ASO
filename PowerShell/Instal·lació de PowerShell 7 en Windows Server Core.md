@@ -117,3 +117,21 @@ D'aquesta manera, els fitxers de PowerShell 7 queden disponibles al servidor.
 ## ![CAPTURA 7: Descompressió del paquet](./Imatges%20Powershell/PW_Descomprimir.png)
 
 ---
+
+## 8. Comprovació dels fitxers instal·lats
+
+S'ha comprovat el contingut de la carpeta d'instal·lació:
+
+```powershell
+Get-ChildItem "C:\Program Files\PowerShell\7"
+```
+
+Entre els fitxers instal·lats es troba `pwsh.exe`, que és l'executable de PowerShell 7.
+
+### Captura
+
+## ![CAPTURA 8A: Contingut de la carpeta ](./Imatges%20Powershell/PW_ComprovacioFitxers.png)
+
+## ![CAPTURA 8B: pwsh.exe](./Imatges%20Powershell/PW_pwsh.png)
+
+---
