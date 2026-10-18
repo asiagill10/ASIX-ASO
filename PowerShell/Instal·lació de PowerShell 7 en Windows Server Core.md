@@ -101,3 +101,19 @@ Aquesta operació permet eliminar el bloqueig de seguretat associat al fitxer de
 ## ![CAPTURA 6: Desbloqueig del fitxer ZIP](./Imatges%20Powershell/PW_Desbloqueig.png)
 
 ---
+
+## 7. Descompressió de PowerShell 7
+
+S'ha descomprimit el paquet dins de la carpeta d'instal·lació:
+
+```powershell
+Expand-Archive -Path "C:\PowerShell-7.6.6-win-x64.zip" -DestinationPath "C:\Program Files\PowerShell\7" -Force
+```
+
+D'aquesta manera, els fitxers de PowerShell 7 queden disponibles al servidor.
+
+### Captura
+
+## ![CAPTURA 7: Descompressió del paquet](./Imatges%20Powershell/PW_Descomprimir.png)
+
+---
