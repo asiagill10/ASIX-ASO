@@ -203,3 +203,11 @@ El resultat confirma que PowerShell 7 està instal·lat i funcionant correctamen
 ## ![CAPTURA 11: Comprovació final de PowerShell 7](./Imatges%20Powershell/PW_pw7comp.png)
 
 ---
+
+## Conclusions
+
+S'ha instal·lat correctament **PowerShell 7.6.6** en un Windows Server sense interfície gràfica mitjançant el paquet ZIP.
+
+La instal·lació s'ha realitzat íntegrament des de la línia d'ordres, sense necessitat d'utilitzar una interfície gràfica.
+
+També s'ha comprovat que **PowerShell 7 i Windows PowerShell 5.1 poden coexistir** en el mateix servidor, de manera que la instal·lació de PowerShell 7 no elimina la versió anterior.
