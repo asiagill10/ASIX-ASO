@@ -135,3 +135,25 @@ Entre els fitxers instal·lats es troba `pwsh.exe`, que és l'executable de Powe
 ## ![CAPTURA 8B: pwsh.exe](./Imatges%20Powershell/PW_pwsh.png)
 
 ---
+
+## 9. Inici de PowerShell 7
+
+S'ha iniciat PowerShell 7 mitjançant:
+
+```powershell
+& "C:\Program Files\PowerShell\7\pwsh.exe"
+```
+
+Un cop iniciada la nova sessió, s'ha comprovat la versió amb:
+
+```powershell
+$PSVersionTable
+```
+
+El resultat mostra la versió **7.6.6** i l'edició **Core**.
+
+### Captura
+
+## ![CAPTURA 9: $PSVersionTable mostrant PowerShell 7.6.6](./Imatges%20Powershell/PW_Inicipw7.png)
+
+---
