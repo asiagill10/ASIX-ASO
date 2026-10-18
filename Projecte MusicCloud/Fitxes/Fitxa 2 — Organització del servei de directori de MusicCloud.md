@@ -193,72 +193,41 @@ Ha de mostrar, com a mínim:
 MusicCloud
 │
 ├── Usuaris
-│   ├── Direccio
-│   │   ├── Aina Ciurans
-│   │   └── Rut Tornils
-│   │
-│   ├── Administracio
-│   │   ├── Dídac Gassó
-│   │   └── Laia Macias
-│   │
-│   ├── Suport_Tecnic
-│   │   ├── Estel Birosta
-│   │   ├── Aina Zuriguel
-│   │   └── Lluïsa Richart
-│   │
-│   ├── Produccio_Musical
-│   │   ├── Roser Alberch
-│   │   ├── Guillem Adella
-│   │   ├── Meritxell Reglat
-│   │   ├── Alícia Monclús
-│   │   ├── Carles Molins
-│   │   └── Eulàlia Galcera
-│   │
-│   ├── Informatica
-│   │   ├── Talia Costas
-│   │   └── Alex Soriano
-│   │
-│   └── Externs
-│       ├── Pere Espinalt
-│       └── Neus Bages
+│   ├── Aina Ciurans
+│   ├── Rut Tornils
+│   ├── Dídac Gassó
+│   ├── Laia Macias
+│   ├── Estel Birosta
+│   ├── Aina Zuriguel
+│   ├── Lluïsa Richart
+│   ├── Roser Alberch
+│   ├── Guillem Adella
+│   ├── Meritxell Reglat
+│   ├── Alícia Monclús
+│   ├── Carles Molins
+│   ├── Eulàlia Galcera
+│   ├── Talia Costas
+│   ├── Alex Soriano
+│   ├── Pere Espinalt
+│   └── Neus Bages
 │
 ├── Grups
-│   ├── Departaments
-│   │   ├── GG_Direccio
-│   │   ├── GG_Administracio
-│   │   ├── GG_Suport_Tecnic
-│   │   ├── GG_Produccio_Musical
-│   │   ├── GG_Informatica
-│   │   └── GG_Externs
-│   │
-│   ├── Projectes
-│   │   └── GG_Projecte_Campanya_Estiu
-│   │
-│   └── Funcions
-│       ├── GG_Caps_Departament
-│       ├── GG_Responsables_Administracio
-│       └── GG_Administradors_Sistema
+│   ├── GG_Direccio
+│   ├── GG_Administracio
+│   ├── GG_Suport_Tecnic
+│   ├── GG_Produccio_Musical
+│   ├── GG_Informatica
+│   ├── GG_Externs
+│   ├── GG_Projecte_Campanya_Estiu
+│   ├── GG_Caps_Departament
+│   ├── GG_Responsables_Administracio
+│   └── GG_Administradors_Sistema
 │
-├── Equips
-│   ├── Sobretaula
-│   ├── Portatils
-│   ├── Servidors
-│   ├── Impressores
-│   └── Mobils
+├── Equips_Clients
 │
-├── Xarxa
-│   ├── SAIS
-│   ├── NAS
-│   ├── Firewalls
-│   ├── Routers
-│   └── Switchs
-│
-├── Software
-│   └── Llicencies
+├── Servidors
 │
 └── Comptes_Servei
-    ├── Aplicacions
-    └── Copies_Seguretat
 ```
 
 # 8. Justificació del disseny
