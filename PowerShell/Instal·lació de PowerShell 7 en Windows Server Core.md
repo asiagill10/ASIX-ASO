@@ -69,3 +69,35 @@ C:\PowerShell-7.6.6-win-x64.zip
 ## ![CAPTURA 4: Descàrrega del paquet de PowerShell 7](./Imatges%20Powershell/PW_Descarrega.png)
 
 ---
+
+# 5. Comprovació de la descàrrega
+
+S'ha comprovat que el fitxer ZIP s'ha descarregat correctament amb:
+
+```powershell
+Get-Item "C:\PowerShell-7.6.6-win-x64.zip"
+```
+
+El sistema mostra informació del fitxer descarregat.
+
+### Captura
+
+## ![CAPTURA 5: Fitxer ZIP descarregat](./Imatges%20Powershell/PW_Descarrega.png)
+
+---
+
+## 6. Desbloqueig del fitxer
+
+Com que el fitxer prové d'Internet, s'ha utilitzat `Unblock-File`:
+
+```powershell
+Unblock-File -Path "C:\PowerShell-7.6.6-win-x64.zip"
+```
+
+Aquesta operació permet eliminar el bloqueig de seguretat associat al fitxer descarregat.
+
+### Captura
+
+## ![CAPTURA 6: Desbloqueig del fitxer ZIP](./Imatges%20Powershell/PW_Desbloqueig.png)
+
+---
