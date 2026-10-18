@@ -30,13 +30,15 @@ Hi afegiries algun altre tipus d'objecte?
 
 Proposa les **unitats organitzatives (OU)** principals que utilitzaries a MusicCloud.
 
-| OU        | Què contindrà?                              | Per què la crees?                                                              |
-| --------- | ------------------------------------------- | ------------------------------------------------------------------------------ |
-| Usuaris   | Comptes dels treballadors i usuaris externs | Per organitzar els comptes dels usuaris de l'empresa.                          |
-| Grups     | Grups de seguretat i altres grups           | Per mantenir organitzats els grups utilitzats per gestionar els permisos.      |
-| Equips    | Ordinadors clients de MusicCloud            | Per gestionar i organitzar els equips de l'empresa.                            |
-| Servidors | Comptes dels servidors                      | Per separar els servidors dels equips clients i facilitar-ne l'administració.  |
-| Serveis   | Comptes d'aplicacions i serveis             | Per organitzar els comptes utilitzats pels serveis i aplicacions de l'empresa. |
+## 2. Organització mitjançant unitats organitzatives
+
+| OU               | Què contindrà?                                                         | Per què la crees?                                                                                                                             |
+| ---------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Usuaris`        | Comptes dels treballadors i dels usuaris externs.                      | Per organitzar els comptes d'usuari i facilitar-ne l'administració. Els departaments i les necessitats d'accés es gestionen mitjançant grups. |
+| `Grups`          | Grups de seguretat departamentals, de projectes i de responsabilitats. | Per separar els grups dels comptes d'usuari i facilitar-ne la gestió i l'assignació de permisos.                                              |
+| `Equips_Clients` | Comptes dels ordinadors dels treballadors.                             | Per separar els equips clients dels servidors i poder aplicar les polítiques de configuració i seguretat que necessitin.                      |
+| `Servidors`      | Comptes dels servidors de l'empresa.                                   | Per gestionar els servidors separadament dels equips clients, ja que poden tenir requisits de seguretat i administració diferents.            |
+| `Comptes_Servei` | Comptes utilitzats per serveis i aplicacions.                          | Per identificar i gestionar aquests comptes separadament dels comptes personals, controlar-ne els permisos i limitar-ne l'ús.                 |
 
 ## 2.1. Organització dels usuaris
 
