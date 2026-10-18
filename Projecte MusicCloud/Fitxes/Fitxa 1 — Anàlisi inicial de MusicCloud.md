@@ -285,7 +285,9 @@ Completa les frases amb les teves paraules.
 
 Un usuari representa:
 
---- Una persona que necessita accedir als recursos informàtics de l'empresa per poder realitzar les seves funcions.
+--- Un compte que permet identificar una entitat quan accedeix als recursos
+informàtics. Normalment correspon a una persona, però també pot representar
+un servei o una aplicació.
 
 ### Recurs
 
