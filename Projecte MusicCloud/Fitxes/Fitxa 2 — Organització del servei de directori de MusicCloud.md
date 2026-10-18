@@ -324,7 +324,9 @@ MusicCloud
 
 ## Criteri utilitzat per organitzar els objectes
 
-- Els objectes s'organitzen principalment segons el seu tipus i funció dins de MusicCloud. Els usuaris s'agrupen segons el departament al qual pertanyen, mentre que els equips, elements de xarxa, recursos de software i comptes de servei es separen en diferents OUs per facilitar-ne la gestió.
+Els objectes del directori s'organitzen en diferents unitats organitzatives (OU) segons les necessitats d'administració i seguretat. Els usuaris, els grups, els equips clients, els servidors i els comptes de servei es mantenen separats per facilitar-ne la gestió i aplicar polítiques específiques quan sigui necessari.
+
+No s'han creat OU per a cada departament, projecte o responsabilitat perquè aquestes necessitats es gestionen mitjançant grups. Això permet mantenir una estructura estable i facilita la gestió dels permisos quan canvien els treballadors o els projectes.
 
 ## Criteri utilitzat per diferenciar OU i grups
 
