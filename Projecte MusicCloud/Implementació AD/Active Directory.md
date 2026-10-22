@@ -32,12 +32,13 @@ Responeu breument:
 1.  Per què el servidor `SRV-AD-01` necessita una adreça IP fixa?
     > Perquè els clients han de poder localitzar sempre el controlador de domini i el servidor DNS a la mateixa adreça IP.
 2.  Per què els clients del domini han d’utilitzar un servidor DNS capaç de resoldre la zona d’Active Directory?
-
+    > Perquè necessiten localitzar el controlador de domini i els serveis d'AD DS per autenticar-se i accedir als recursos del domini.
 3.  Què passaria si `SRV-AD-01` estigués apagat?
-
+    > Els clients no podrien contactar amb aquest controlador de domini per autenticar-se ni accedir als serveis que depenen d'ell. Algunes sessions ja iniciades podrien continuar funcionant amb credencials emmagatzemades a la memòria cache, però no hi hauria disponibilitat del controlador mentre estigués apagat.
 4.  Per què un únic controlador de domini és acceptable al laboratori però insuficient en una empresa real?
-
+    > Al laboratori és suficient per practicar i simplificar la configuració. En una empresa real, un únic controlador és un punt únic de fallada. Un segon controlador permetria mantenir el servei disponible si el primer falla.
 5.  Per què els departaments no s’han creat com a dominis diferents?
+    > Perquè els departaments formen part de la mateixa empresa i poden gestionar-se dins d'un únic domini mitjançant unitats organitzatives (OU) i grups. Això simplifica l'administració i la gestió dels permisos.
 
 # Planificació de la implantació
 
