@@ -1,4 +1,7 @@
-$nomOU = "MusicCloud"
+param (
+    [string]$nomOU
+)
+
 $ruta = "DC=musiccloud,DC=local"
 
 try {
