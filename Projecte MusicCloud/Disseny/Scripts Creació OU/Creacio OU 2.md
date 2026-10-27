@@ -19,5 +19,5 @@ New-ADOrganizationalUnit -Name $nomOU -Path $ruta
 ## Comanda per executar el script
 
 ```powershell
-.\Creacio OU 2.ps1 "Usuaris"
+".\Creacio OU 2.ps1" "Usuaris"
 ```

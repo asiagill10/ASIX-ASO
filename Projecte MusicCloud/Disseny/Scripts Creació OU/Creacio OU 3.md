@@ -1,11 +1,8 @@
 # Script 3
 
 ```powershell
-
-param (
-    [string]$nomOU,
-    [string]$ruta
-)
+$nomOU = $args[0]
+$ruta = "$args[1]
 
 try {
     $OU = Get-ADOrganizationalUnit -Identity "OU=$nomOU,$ruta" -ErrorAction Stop
@@ -23,5 +20,5 @@ if (-not $OU) {
 ## Comanda per executar el script
 
 ```powershell
-.\Creacio OU 2.ps1 -nomOU “Musiccloud”  -ruta“OU=Musiccloud DC=musiccloud, DC=local”
+“ .\Creacio OU 3.ps1” “Usuaris” “OU=Musiccloud DC=musiccloud, DC=local”
 ```

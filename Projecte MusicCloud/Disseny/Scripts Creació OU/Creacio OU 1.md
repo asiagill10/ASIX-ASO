@@ -19,5 +19,5 @@ if (-not $OU) {
 ## Comanda per executar el script
 
 ```powershell
-.\Creacio OU 1.ps1
+".\Creacio OU 1.ps1"
 ```
