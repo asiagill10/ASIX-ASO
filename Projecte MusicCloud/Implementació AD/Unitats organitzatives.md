@@ -159,10 +159,14 @@ Usuaris            OU=Usuaris,OU=MusicCloud,DC=musiccloud,DC=local
 
 Responeu breument:
 
-1. Per què és útil crear una UO principal anomenada `MusicCloud`?
-2. Per què se separen `Usuaris`, `Equips` i `Grups`?
-3. Per què els departaments s’han creat dins de `Usuaris`?
-4. Per què no és recomanable deixar tots els usuaris dins del contenidor `Users`?
+1. Per què és útil crear una UO principal anomenada MusicCloud?
+   > Permet agrupar els objectes de l'empresa dins d'una estructura comuna, facilitant-ne l'organització, l'administració i l'aplicació de polítiques.
+2. Per què se separen Usuaris, Equips i Grups?
+   > Perquè són tipus d'objectes diferents. Separar-los facilita l'administració, l'aplicació de polítiques i la gestió dels permisos.
+3. Per què els departaments s’han creat dins de Usuaris?
+   > Per organitzar els comptes d'usuari segons el departament al qual pertanyen i facilitar-ne l'administració.
+4. Per què no és recomanable deixar tots els usuaris dins del contenidor Users?
+   > Perquè el contenidor predeterminat ofereix menys flexibilitat per organitzar els usuaris i aplicar polítiques de grup específiques. Les OU permeten crear una estructura adaptada a les necessitats de l'empresa i vincular-hi polítiques de grup (GPO).
 
 ## Part 7. Creació scripts
 
