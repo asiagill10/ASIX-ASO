@@ -128,6 +128,33 @@ Executeu una consulta que mostri totes les unitats organitzatives del domini.
 
 La sortida ha de mostrar, com a mínim, les UO creades en aquesta pràctica.
 
+**Comandes Usades**
+
+> S'ha executat la següent comanda per verificar totes les unitats organitzatives del domini.
+
+```powershell
+Get-ADOrganizationalUnit -Filter * | Select-Object Name, DistinguishedName | Sort-Object DistinguishedName
+```
+
+> La sortida és la següent.
+
+```text
+Name               DistinguishedName
+----               -----------------
+Administracio      OU=Administracio,OU=Usuaris,OU=MusicCloud,DC=musiccloud,DC=local
+Clients            OU=Clients,OU=Equips,OU=MusicCloud,DC=musiccloud,DC=local
+Comercial          OU=Comercial,OU=Usuaris,OU=MusicCloud,DC=musiccloud,DC=local
+Desenvolupament    OU=Desenvolupament,OU=Usuaris,OU=MusicCloud,DC=musiccloud,DC=local
+Direccio           OU=Direccio,OU=Usuaris,OU=MusicCloud,DC=musiccloud,DC=local
+Domain Controllers OU=Domain Controllers,DC=musiccloud,DC=local
+Equips             OU=Equips,OU=MusicCloud,DC=musiccloud,DC=local
+Grups              OU=Grups,OU=MusicCloud,DC=musiccloud,DC=local
+MusicCloud         OU=MusicCloud,DC=musiccloud,DC=local
+Servidors          OU=Servidors,OU=Equips,OU=MusicCloud,DC=musiccloud,DC=local
+Sistemes           OU=Sistemes,OU=Usuaris,OU=MusicCloud,DC=musiccloud,DC=local
+Usuaris            OU=Usuaris,OU=MusicCloud,DC=musiccloud,DC=local
+```
+
 ## Part 6. Preguntes
 
 Responeu breument:
