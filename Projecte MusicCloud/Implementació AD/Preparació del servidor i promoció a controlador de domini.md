@@ -130,8 +130,14 @@ Completeu la taula següent. Adjunta la comanda que has utilitzat per a cada una
 Responeu breument:
 
 1. Per què `SRV-AD-01` necessita una IP fixa?
+   > Perquè els clients han de poder localitzar sempre el controlador de domini i el servidor DNS a la mateixa adreça IP.
 2. Per què és necessari DNS en un domini Active Directory?
+   > Perquè DNS permet als clients localitzar els controladors de domini i els serveis necessaris per a l'autenticació i el funcionament d'Active Directory.
 3. Quina diferència hi ha entre instal·lar AD DS i promocionar el servidor a controlador de domini?
+   > Instal·lar AD DS afegeix el rol i les eines d'administració. Promocionar el servidor crea el domini i el configura perquè actuï com a controlador de domini.
 4. Quin és el nom del domini creat?
+   > El nom del domini creat és musiccloud.local
 5. Quin és el nom NetBIOS del domini?
+   > El nom NetBIOS del domini és MUSICCLOUD
 6. Per què no és recomanable que els clients del domini utilitzin un DNS extern com a DNS principal?
+   > Perquè un DNS extern no acostuma a conèixer els registres interns d'Active Directory, necessaris per localitzar el controlador de domini. Els clients han d'utilitzar el DNS intern de l'empresa, que pot reenviar les consultes d'Internet a servidors DNS externs.
