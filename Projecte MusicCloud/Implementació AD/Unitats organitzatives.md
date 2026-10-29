@@ -44,18 +44,13 @@ MusicCloud
 ```
 
 Aquesta UO serà el contenidor principal de l’estructura de l’empresa.
+
 **Comandes Usades**
 
 > S'ha executat la següent comanda per crear la unitat organitzativa principal.
 
 ```powershell
 New-ADOrganizationalUnit -Name "MusicCloud" -Path "DC=musiccloud,DC=local"
-```
-
-> S'ha executat la següent comanda per comprovar.
-
-```powershell
-Get-ADOrganizationalUnit -Filter 'Name -eq "MusicCloud"' | Select-Object Name,DistinguishedName
 ```
 
 ## Part 2. Creació de les UO de primer nivell
@@ -78,16 +73,6 @@ New-ADOrganizationalUnit -Name "Usuaris" -Path "OU=MusicCloud,DC=musiccloud,DC=l
 New-ADOrganizationalUnit -Name "Equips" -Path "OU=MusicCloud,DC=musiccloud,DC=local"
 
 New-ADOrganizationalUnit -Name "Grups" -Path "OU=MusicCloud,DC=musiccloud,DC=local"
-```
-
-> S'han executat les següent comandes per comprovar.
-
-```powershell
-Get-ADOrganizationalUnit -Filter 'Name -eq "Usuaris"' | Select-Object Name, DistinguishedName
-
-Get-ADOrganizationalUnit -Filter 'Name -eq "Equips"' | Select-Object Name, DistinguishedName
-
-Get-ADOrganizationalUnit -Filter 'Name -eq "Grups"' | Select-Object Name, DistinguishedName
 ```
 
 ## Part 3. Creació de les UO de departaments
