@@ -68,6 +68,28 @@ Equips
 Grups
 ```
 
+**Comandes Usades**
+
+> S'han executat les següents comandes per crear les UO de primer nivell.
+
+```powershell
+New-ADOrganizationalUnit -Name "Usuaris" -Path "OU=MusicCloud,DC=musiccloud,DC=local"
+
+New-ADOrganizationalUnit -Name "Equips" -Path "OU=MusicCloud,DC=musiccloud,DC=local"
+
+New-ADOrganizationalUnit -Name "Grups" -Path "OU=MusicCloud,DC=musiccloud,DC=local"
+```
+
+> S'han executat les següent comandes per comprovar.
+
+```powershell
+Get-ADOrganizationalUnit -Filter 'Name -eq "Usuaris"' | Select-Object Name, DistinguishedName
+
+Get-ADOrganizationalUnit -Filter 'Name -eq "Equips"' | Select-Object Name, DistinguishedName
+
+Get-ADOrganizationalUnit -Filter 'Name -eq "Grups"' | Select-Object Name, DistinguishedName
+```
+
 ## Part 3. Creació de les UO de departaments
 
 Dins de la UO `Usuaris`, creeu les UO següents:
