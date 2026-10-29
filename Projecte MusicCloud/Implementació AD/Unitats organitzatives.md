@@ -112,6 +112,16 @@ Clients
 Servidors
 ```
 
+**Comandes Usades**
+
+> S'han executat les següents comandes per crear les UO d’equips.
+
+```powershell
+New-ADOrganizationalUnit -Name "Clients" -Path "OU=Equips,OU=MusicCloud,DC=musiccloud,DC=local"
+
+New-ADOrganizationalUnit -Name "Servidors" -Path "OU=Equips,OU=MusicCloud,DC=musiccloud,DC=local"
+```
+
 ## Part 5. Verificació
 
 Executeu una consulta que mostri totes les unitats organitzatives del domini.
