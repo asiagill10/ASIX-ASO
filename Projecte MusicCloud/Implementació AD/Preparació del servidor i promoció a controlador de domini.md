@@ -92,6 +92,17 @@ Promocioneu el servidor a controlador de domini amb les opcions següents:
 
 Definiu una contrasenya segura per al mode de restauració de serveis de directori.
 
+**Comanda Usada**
+
+```powershell
+Install-ADDSForest `
+    -DomainName "musiccloud.local" `
+    -DomainNetbiosName "MUSICCLOUD" `
+    -InstallDNS `
+    -SafeModeAdministratorPassword (Read-Host "Introdueix la contrasenya DSRM" -AsSecureString) `
+    -Force
+```
+
 ### Part 4. Verificació
 
 Després del reinici, comproveu:
@@ -104,15 +115,15 @@ Després del reinici, comproveu:
 
 Completeu la taula següent. Adjunta la comanda que has utilitzat per a cada una de les comprovacions.
 
-| Comprovació                          | Resultat |
-| ------------------------------------ | -------- |
-| Nom del servidor                     |          |
-| IP fixa configurada                  |          |
-| AD DS instal·lat                     |          |
-| Domini creat                         |          |
-| DNS instal·lat                       |          |
-| Resolució de `musiccloud.local`      |          |
-| Eines d’Active Directory disponibles |          |
+| Comprovació                          | Comanda utilitzada                        | Resultat esperat                                              |
+| ------------------------------------ | ----------------------------------------- | ------------------------------------------------------------- |
+| Nom del servidor                     | `hostname`                                | SRV-AD-01                                                     |
+| IP fixa configurada                  | `Get-NetIPAddress` i `Get-NetIPInterface` | 192.168.56.106/24, DHCP desactivat a l'adaptador corresponent |
+| AD DS instal·lat                     | `Get-WindowsFeature AD-Domain-Services`   | Instal·lat                                                    |
+| Domini creat                         | `Get-ADDomain`                            | musiccloud.local                                              |
+| DNS instal·lat                       | `Get-WindowsFeature DNS`                  | Instal·lat                                                    |
+| Resolució de `musiccloud.local`      | `Resolve-DnsName musiccloud.local`        | Resolució correcta                                            |
+| Eines d’Active Directory disponibles | `Get-Command Get-ADDomain`                | Comanda disponible                                            |
 
 ## Preguntes
 
