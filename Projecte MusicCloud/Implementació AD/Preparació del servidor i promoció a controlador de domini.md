@@ -49,6 +49,17 @@ Completeu la taula següent:
 | DNS preferit     | 192.168.56.106 (El servidor mateix)                                                  |
 | Nom del servidor | SRV-AD-01                                                                            |
 
+**Comandes Usades**
+
+```powershell
+Rename-Computer -NewName "SRV-AD-01" -Restart
+hostname
+ipconfig /all
+Get-NetIPConfiguration
+Get-TimeZone
+Get-Date
+```
+
 ### Part 2. Instal·lació del rol AD DS
 
 Localitzeu i utilitzeu el procediment adequat per instal·lar el rol AD DS i promocionar el servidor a controlador de domini. Documenteu breument les comandes o passos utilitzats.
