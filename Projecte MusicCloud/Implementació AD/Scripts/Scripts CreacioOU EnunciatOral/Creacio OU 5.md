@@ -24,7 +24,7 @@ if (-not $OU) {
 
 ## Comanda per executar el script
 
-> Amb aquest script, el paràmetre $nomOU és obligatori i, per tant, sempre hem d'indicar el nom de la unitat organitzativa que volem crear. En canvi, el paràmetre $ruta és opcional, ja que té assignada una ruta per defecte (DC=musiccloud,DC=local). Si no especifiquem cap ruta en executar el script, s'utilitzarà automàticament la ruta per defecte.
+> En aquest script, el paràmetre $nomOU és obligatori i, per tant, sempre hem d'indicar el nom de la unitat organitzativa que volem crear. En canvi, el paràmetre $ruta és opcional, ja que té assignada una ruta per defecte (DC=musiccloud,DC=local). Si no especifiquem cap ruta en executar el script, s'utilitzarà automàticament la ruta per defecte.
 
 ### **Exemple 1.** Especifiquem el nom de l'OU i una ruta personalitzada:
 

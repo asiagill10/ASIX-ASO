@@ -21,7 +21,7 @@ if (-not $OU) {
 
 ## Comanda per executar el script
 
-> Amb aquest script, podem modificar l'ordre dels paràmetres en executar-lo sense que això afecti el seu funcionament. Això és possible perquè indiquem explícitament el nom de cada paràmetre (-nomOU i -ruta), de manera que PowerShell identifica correctament quin valor correspon a cadascun, independentment de l'ordre en què s'especifiquin.
+> Aquest script permet modificar l'ordre dels paràmetres en executar-lo sense que això afecti el seu funcionament. Això és possible perquè indiquem explícitament el nom de cada paràmetre (-nomOU i -ruta), de manera que PowerShell identifica correctament quin valor correspon a cadascun, independentment de l'ordre en què s'especifiquin.
 
 ### **Exemple 1.** Primer indiquem el nom de l'OU i després la ruta:
 
