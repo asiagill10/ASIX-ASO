@@ -21,6 +21,12 @@ if (-not $OU) {
 
 ## Comanda per executar el script
 
+> Amb aquest script podem invertir l’ordre i el script seguirà executant-se.
+
 ```powershell
-“ .\Creacio OU 3.ps1” “Usuaris” “OU=Musiccloud DC=musiccloud, DC=local”
+“ .\Crear OU.ps1” -NomOU “Musiccloud”  -Ruta “OU=Musiccloud DC=musiccloud, DC=local”
+```
+
+```powershell
+“ .\Crear OU.ps1”  -Ruta “OU=Musiccloud DC=musiccloud, DC=local” -NomOU “Musiccloud”
 ```
