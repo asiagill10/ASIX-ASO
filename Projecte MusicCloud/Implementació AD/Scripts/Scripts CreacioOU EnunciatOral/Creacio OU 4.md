@@ -1,4 +1,4 @@
-# Script 3
+# Script 4
 
 ```powershell
 param (
@@ -21,11 +21,15 @@ if (-not $OU) {
 
 ## Comanda per executar el script
 
-> Amb aquest script podem invertir l’ordre i el script seguirà executant-se.
+> Amb aquest script, podem modificar l'ordre dels paràmetres en executar-lo sense que això afecti el seu funcionament. Això és possible perquè indiquem explícitament el nom de cada paràmetre (-nomOU i -ruta), de manera que PowerShell identifica correctament quin valor correspon a cadascun, independentment de l'ordre en què s'especifiquin.
+
+### **Exemple 1.** Primer indiquem el nom de l'OU i després la ruta:
 
 ```powershell
 “ .\Crear OU.ps1” -NomOU “Musiccloud”  -Ruta “OU=Musiccloud DC=musiccloud, DC=local”
 ```
+
+### **Exemple 2.** Primer indiquem la ruta i després el nom de l'OU:
 
 ```powershell
 “ .\Crear OU.ps1”  -Ruta “OU=Musiccloud DC=musiccloud, DC=local” -NomOU “Musiccloud”
