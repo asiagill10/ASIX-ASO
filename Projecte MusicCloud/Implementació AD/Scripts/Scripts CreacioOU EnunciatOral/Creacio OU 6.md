@@ -41,7 +41,7 @@ if (-not $OU) {
 ### **Exemple 1.** Indiquem una ruta que existeix
 
 ```powershell
-" .\CrearOU.ps1" -nomOU "Administracio" -ruta "OU=MusicCloud,DC=musiccloud,DC=local"
+" .\CrearOU 6.ps1" -nomOU "Usuaris" -ruta "OU=MusicCloud,DC=musiccloud,DC=local"
 ```
 
 > El script comprova que la ruta existeix i, si l'OU `Administracio` encara no existeix, la crea.
@@ -49,7 +49,7 @@ if (-not $OU) {
 ### **Exemple 2.** Indiquem una ruta que no existeix
 
 ```powershell
-" .\CrearOU.ps1 -nomOU" "Administracio" -ruta "OU=Inexistent,DC=musiccloud,DC=local"
+" .\CrearOU 6.ps1" -nomOU "Usuaris" -ruta "OU=Inexistent,DC=musiccloud,DC=local"
 ```
 
 > El script detecta que la ruta no existeix, mostra el missatge `No existeix` i finalitza l'execució sense crear l'OU.
