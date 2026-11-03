@@ -13,7 +13,7 @@ try {
 }
 catch {
     Write-Host "No existeix la ruta: $ruta"
-    exit 1
+    exit
 }
 
 foreach ($nom in $nomOU) {
