@@ -177,3 +177,4 @@ Responeu breument:
 - 7.3. Crea un script que crei l'OU principal i les OUs descendents: Usuaris, Equips i Grups
   > Script 7.3: [7-3-CrearOUPrimerNivell.ps1](Scripts/Scripts%20Unitats%20organitzatives/7-3-CrearOUPrimerNivell.ps1)
 - 7.4. Crea un script que creï l'OU principal si no existeix i que creï únicament les UO descendents que encara no existeixin. El script s'ha de poder executar més d'una vegada sense generar errors ni duplicar objectes.
+  > Script 7.3: [7-4-CrearEstructuraCompleta.ps1](Scripts/Scripts%20Unitats%20organitzatives/7-4-CrearEstructuraCompleta.ps1)
