@@ -1,5 +1,3 @@
-Import-Module ActiveDirectory
-
 $ruta = "OU=MusicCloud,DC=musiccloud,DC=local"
 
 try {
