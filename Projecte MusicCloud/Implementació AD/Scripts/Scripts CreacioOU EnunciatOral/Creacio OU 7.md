@@ -3,56 +3,33 @@
 ```powershell
 param (
     [Parameter(Mandatory=$true)]
-    [string]$nomOU,
+    [string[]]$nomOU,
 
     [string]$ruta = "DC=musiccloud,DC=local"
 )
 
 try {
-    $OU = Get-ADObject -Identity $ruta -ErrorAction Stop
+    Get-ADObject -Identity $ruta -ErrorAction Stop | Out-Null
 }
 catch {
-    Write-Host "No existeix $ruta"
-    exit
+    Write-Host "No existeix la ruta: $ruta"
+    exit 1
 }
 
-if ($nomOU -eq "Usuaris") {
-    $subOUs = @(
-        "Administracio",
-        "Comercial",
-        "Desenvolupament",
-        "Sistemes",
-        "Direccio"
-    )
-}
-elseif ($nomOU -eq "Equips") {
-    $subOUs = @(
-        "Clients",
-        "Servidors"
-    )
-}
-else {
-    Write-Host "No hi ha cap estructura definida per a $nomOU"
-    exit
-}
+foreach ($nom in $nomOU) {
 
-try {
-    $OU = Get-ADOrganizationalUnit -Identity "OU=$nomOU,$ruta" -ErrorAction Stop
-}
-catch {
-    $OU = New-ADOrganizationalUnit -Name $nomOU -Path $ruta -PassThru
-}
-
-$rutaOU = $OU.DistinguishedName
-
-foreach ($nom in $subOUs) {
     try {
-        $OU = Get-ADOrganizationalUnit -Identity "OU=$nom,$rutaOU" -ErrorAction Stop
-        Write-Host "Ja existeix: $nom"
+        $OU = Get-ADOrganizationalUnit -Identity "OU=$nom,$ruta" -ErrorAction Stop
+        Write-Host "L'OU ja existeix: $nom"
     }
     catch {
-        New-ADOrganizationalUnit -Name $nom -Path $rutaOU -ErrorAction Stop
-        Write-Host "OU creada: $nom"
+        try {
+            New-ADOrganizationalUnit -Name $nom -Path $ruta -ErrorAction Stop
+            Write-Host "OU creada correctament: $nom"
+        }
+        catch {
+            Write-Host "No s'ha pogut crear l'OU '$nom': $($_.Exception.Message)"
+        }
     }
 }
 
@@ -60,37 +37,16 @@ foreach ($nom in $subOUs) {
 
 ## Comanda per executar el script
 
-> Amb aquest script, el paràmetre $nomOU continua sent obligatori i $ruta continua sent opcional, amb una ruta per defecte. La novetat és que el script identifica el nom de l'OU indicada i determina automàticament quines OU descendents ha de crear. Primer comprova que la ruta existeixi i que l'OU principal estigui creada. Després, crea les OU descendents corresponents, sempre comprovant que no existeixin prèviament.
+> La principal novetat és que el paràmetre $nomOU passa a ser una matriu ([string[]]), cosa que permet indicar diversos noms d'unitats organitzatives en una mateixa execució. A més, s'incorpora foreach, que recorre tots els noms indicats i comprova individualment si cada OU existeix. Si ja existeix, no la torna a crear; si no existeix, la crea a la ruta especificada. També s'utilitza Get-ADObject per comprovar que la ruta indicada existeix abans de començar el procés, i s'afegeix un segon bloc try/catch per gestionar possibles errors durant la creació de les OU.
 
-### **Exemple 1.** Creem l'OU Usuaris i tots els seus departaments dins de MusicCloud
-
-```powershell
-" .\CrearOU 7.ps1" nomOU "Usuaris" -ruta "OU=MusicCloud,DC=musiccloud,DC=local"
-```
-
-**Resultat Exemple 1:**
-
-```text
-MusicCloud
-└── Usuaris
-    ├── Administracio
-    ├── Comercial
-    ├── Desenvolupament
-    ├── Sistemes
-    └── Direccio
-```
-
-### **Exemple 2.** Creem l'OU Equips i les seves sub-OU dins de MusicCloud
+### **Exemple 1.** Creem tots els departaments dins de Usuaris
 
 ```powershell
-" .\CrearOU 7.ps1" --nomOU "Equips" -ruta "OU=MusicCloud,DC=musiccloud,DC=local"
+" .\CrearOU 6.ps1" -nomOU "Administracio","Comercial","Desenvolupament","Sistemes","Direccio" -ruta "OU=Usuaris,OU=MusicCloud,DC=musiccloud,DC=local"
 ```
 
-**Resultat Exemple 2:**
+### **Exemple 2.** Creem Clients i Servidors dins d'Equips
 
-```text
-MusicCloud
-└── Equips
-    ├── Clients
-    └── Servidors
+```powershell
+" .\CrearOU 6.ps1" -nomOU "Clients","Servidors" -ruta "OU=Equips,OU=MusicCloud,DC=musiccloud,DC=local"
 ```
