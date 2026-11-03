@@ -3,7 +3,9 @@ $ruta = "OU=MusicCloud,DC=musiccloud,DC=local"
 try {
     $OU = Get-ADOrganizationalUnit -Identity $ruta -ErrorAction Stop
 
-    Remove-ADOrganizationalUnit -Identity $ruta -Recursive -Confirm:$false
+    Set-ADOrganizationalUnit -Identity $ruta -ProtectedFromAccidentalDeletion $false
+
+    Remove-ADOrganizationalUnit -Identity $ruta -Recursive -Confirm:$false -ErrorAction Stop
 
     Write-Host "S'ha eliminat l'estructura MusicCloud."
 }
