@@ -80,7 +80,7 @@ MusicCloud
     └── Direccio
 ```
 
-### **Exemple 2.** Indiquem una ruta que no existeix
+### **Exemple 2.** Creem l'OU Equips i les seves sub-OU dins de MusicCloud
 
 ```powershell
 " .\CrearOU 7.ps1" --nomOU "Equips" -ruta "OU=MusicCloud,DC=musiccloud,DC=local"
