@@ -42,11 +42,11 @@ foreach ($nom in $nomOU) {
 ### **Exemple 1.** Creem tots els departaments dins de Usuaris
 
 ```powershell
-" .\CrearOU 6.ps1" -nomOU "Administracio","Comercial","Desenvolupament","Sistemes","Direccio" -ruta "OU=Usuaris,OU=MusicCloud,DC=musiccloud,DC=local"
+" .\Creacio OU 6.ps1" -nomOU "Administracio","Comercial","Desenvolupament","Sistemes","Direccio" -ruta "OU=Usuaris,OU=MusicCloud,DC=musiccloud,DC=local"
 ```
 
 ### **Exemple 2.** Creem Clients i Servidors dins d'Equips
 
 ```powershell
-" .\CrearOU 6.ps1" -nomOU "Clients","Servidors" -ruta "OU=Equips,OU=MusicCloud,DC=musiccloud,DC=local"
+& '.\Creacio OU 6.ps1' -nomOU "Clients","Servidors" -ruta "OU=Equips,OU=MusicCloud,DC=musiccloud,DC=local"
 ```

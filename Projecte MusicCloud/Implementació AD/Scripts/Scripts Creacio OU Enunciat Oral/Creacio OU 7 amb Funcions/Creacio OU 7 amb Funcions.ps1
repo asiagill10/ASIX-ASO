@@ -1,11 +1,7 @@
-# Script 7
-
-```powershell
 param(
     [Parameter(Mandatory=$true)]
     [string[]]$nomOU,
 
-    [Parameter(Mandatory=$false)]
     [string]$ruta = "DC=musiccloud,DC=local"
 )
 
@@ -59,14 +55,3 @@ else {
     Write-Host "No existeix la ruta: $ruta"
     exit
 }
-```
-
-## Comanda per executar el script
-
-> La diferència respecte al script 7 anterior és ara s'ha separat les tasques en funcions per fer que el codi sigui més modular, ordenat i fàcil de reutilitzar.
-
-### **Exemple** Creem tots els departaments dins de Usuaris
-
-```powershell
-" .\CrearOU 6.ps1" -nomOU "Administracio","Comercial","Desenvolupament","Sistemes","Direccio" -ruta "OU=Usuaris,OU=MusicCloud,DC=musiccloud,DC=local"
-```

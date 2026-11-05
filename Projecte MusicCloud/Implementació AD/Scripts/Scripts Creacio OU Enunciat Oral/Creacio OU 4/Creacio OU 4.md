@@ -26,11 +26,11 @@ if (-not $OU) {
 ### **Exemple 1.** Primer indiquem el nom de l'OU i després la ruta:
 
 ```powershell
-“ .\Crear OU 4.ps1” -NomOU “Musiccloud”  -Ruta “OU=Musiccloud DC=musiccloud, DC=local”
+& '.\Crear OU 4.ps1 -NomOU' “Musiccloud”  -Ruta “OU=Musiccloud DC=musiccloud, DC=local”
 ```
 
 ### **Exemple 2.** Primer indiquem la ruta i després el nom de l'OU:
 
 ```powershell
-“ .\Crear OU 4.ps1”  -Ruta “OU=Musiccloud DC=musiccloud, DC=local” -NomOU “Musiccloud”
+& '.\Creacio OU 4.ps1'  -Ruta “OU=Musiccloud DC=musiccloud, DC=local” -NomOU “Musiccloud”
 ```
