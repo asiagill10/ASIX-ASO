@@ -67,5 +67,5 @@ else {
 ### **Exemple** Creem tots els departaments dins de Usuaris
 
 ```powershell
-& '.\Creacio OU 6.ps1' -nomOU "Administracio","Comercial","Desenvolupament","Sistemes","Direccio" -ruta "OU=Usuaris,OU=MusicCloud,DC=musiccloud,DC=local"
+& '.\Creacio OU 7 amb funcions.ps1' -nomOU "Administracio","Comercial","Desenvolupament","Sistemes","Direccio" -ruta "OU=Usuaris,OU=MusicCloud,DC=musiccloud,DC=local"
 ```
