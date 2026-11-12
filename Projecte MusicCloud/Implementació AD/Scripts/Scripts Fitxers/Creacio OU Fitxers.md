@@ -11,5 +11,5 @@
 ### **Exemple**
 
 ```powershell
-& '.\CrearOUFitxer.ps1'
+& '.\Creacio OU Fitxers.ps1'
 ```
