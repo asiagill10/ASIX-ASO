@@ -33,3 +33,12 @@ function Comprovar-OU {
         return $false
     }
 }
+
+function Crear-OU {
+    param(
+        [string]$nom,
+        [string]$ruta
+    )
+
+    New-ADOrganizationalUnit -Name $nom -Path $ruta -ErrorAction Stop | Out-Null
+}
