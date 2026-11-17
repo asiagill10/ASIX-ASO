@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory=$true)]
-    [string]$fitxer,
+    [string]$fitxer = ".\unitats.csv",
 
     [string]$ruta = "DC=musiccloud,DC=local"
 )
