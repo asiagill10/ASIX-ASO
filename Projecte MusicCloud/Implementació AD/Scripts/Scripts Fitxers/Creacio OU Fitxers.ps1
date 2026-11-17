@@ -42,3 +42,15 @@ function Crear-OU {
 
     New-ADOrganizationalUnit -Name $nom -Path $ruta -ErrorAction Stop | Out-Null
 }
+
+if (Test-Path $fitxer) {
+    $dades = Import-Csv $fitxer
+
+    if (Comprovar-Ruta -ruta $ruta) {
+        foreach ($fila in $dades) {
+            if (-not (Comprovar-OU -nom $fila.nomOU -ruta $ruta)) {
+                Crear-OU -nom $fila.nomOU -ruta $ruta
+            }
+        }
+    }
+}
