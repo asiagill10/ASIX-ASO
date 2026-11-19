@@ -1,6 +1,5 @@
 param(
-    [Parameter(Mandatory=$true)]
-    [string[]]$nomOU = Import-Csv ".\unitats.csv",
+    [string[]]$nomOU = (Import-Csv ".\unitats.csv").nomOU,
 
     [string]$ruta = "DC=musiccloud,DC=local"
 )
