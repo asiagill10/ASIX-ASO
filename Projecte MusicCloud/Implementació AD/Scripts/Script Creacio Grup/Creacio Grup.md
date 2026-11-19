@@ -71,5 +71,5 @@ else {
 ### **Exemple:** Crear el grup GG_Informatica dins de la UO Grups
 
 ```powershell
-& '.\CrearGrup.ps1' -nomGrup "GG_Informatica" -ruta "OU=Grups,OU=MusicCloud,DC=musiccloud,DC=local"
+& '.\Creacio Grup.ps1' -nomGrup "GG_Informatica" -ruta "OU=Grups,OU=MusicCloud,DC=musiccloud,DC=local"
 ```
