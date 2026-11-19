@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory=$true)]
-    [string]$fitxer = ".\unitats.csv",
+    [string[]]$nomOU = Import-Csv ".\unitats.csv",
 
     [string]$ruta = "DC=musiccloud,DC=local"
 )
@@ -19,38 +19,39 @@ function Comprovar-Ruta {
     }
 }
 
-function Comprovar-OU {
-    param(
-        [string]$nom,
-        [string]$ruta
-    )
-
-    try {
-        Get-ADOrganizationalUnit -Identity "OU=$nom,$ruta" -ErrorAction Stop | Out-Null
-        return $true
-    }
-    catch {
-        return $false
-    }
-}
-
 function Crear-OU {
     param(
-        [string]$nom,
+        [string[]]$nomOU,
         [string]$ruta
     )
 
-    New-ADOrganizationalUnit -Name $nom -Path $ruta -ErrorAction Stop | Out-Null
-}
+    foreach ($nom in $nomOU) {
 
-if (Test-Path $fitxer) {
-    $dades = Import-Csv $fitxer
+        try {
+            $OU = Get-ADOrganizationalUnit -Identity "OU=$nom,$ruta" -ErrorAction Stop
+            Write-Host "L'OU $nom ja existeix."
+        }
+        catch {
+            $OU = $null
+        }
 
-    if (Comprovar-Ruta -ruta $ruta) {
-        foreach ($fila in $dades) {
-            if (-not (Comprovar-OU -nom $fila.nomOU -ruta $ruta)) {
-                Crear-OU -nom $fila.nomOU -ruta $ruta
+        if ($OU -eq $null) {
+            try {
+                New-ADOrganizationalUnit -Name $nom -Path $ruta -ErrorAction Stop
+                Write-Host "L'OU '$nom' s'ha creat correctament."
+            }
+            catch {
+                Write-Host "No s'ha pogut crear l'OU '$nom'."
+                Write-Host $_.Exception.Message
             }
         }
     }
+}
+
+if (Comprovar-Ruta -ruta $ruta) {
+    Crear-OU -nomOU $nomOU -ruta $ruta
+}
+else {
+    Write-Host "No existeix la ruta: $ruta"
+    exit
 }
