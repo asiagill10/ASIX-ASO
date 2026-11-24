@@ -52,5 +52,6 @@ if (Comprovar-Ruta -ruta $ruta) {
 }
 else {
     Write-Host "No existeix la ruta: $ruta"
+    Write-Error "$ruta [ERR] No existeix la ruta" 2> ".\infoOU.err"
     exit
 }

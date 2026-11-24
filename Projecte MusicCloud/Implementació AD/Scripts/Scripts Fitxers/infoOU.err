@@ -1,0 +1,7 @@
+C:\Users\Administrador\Creacio OU Fitxers.ps1 : DC=asia,DC=cat [ERR] No existeix la ruta
+En línea: 1 Carácter: 1
++ & '.\Creacio OU Fitxers.ps1' -nomOU "test" -ruta "DC=asia,DC=cat"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,Creacio OU Fitxers.ps1
+ 
